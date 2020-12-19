@@ -35,6 +35,8 @@ Asynchronously scrapes nutrient data from a user's food diary on a given date.
     - 'sodium'
     - 'fiber'
     - 'sugar'
+    - 'burnedCalories'
+    - 'exerciseMinutes'
 - callback `Function`
   - the callback is passed a single argument `data`, which will be an `Object`
   whose keys are the nutrient field names and values are each a `Number`, as well as the date.
